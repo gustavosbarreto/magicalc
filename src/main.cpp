@@ -4,6 +4,7 @@
 #include <QLibraryInfo>
 
 #include "mainwindow.hpp"
+#include "engine.hpp"
 
 int main(int argc, char *argv[])
 {
@@ -15,6 +16,8 @@ int main(int argc, char *argv[])
     qtTranslator.load("qt_" + QLocale::system().name(),
                       QLibraryInfo::location(QLibraryInfo::TranslationsPath));
     app.installTranslator(&qtTranslator);
+
+    Engine::instance()->initialize();
 
     MainWindow *mainWindow = new MainWindow;
     mainWindow->show();

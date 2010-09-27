@@ -12,8 +12,6 @@ MainWindow::MainWindow()
 {
     ui.setupUi(this);
 
-    Engine::instance()->initialize();
-
     answerController = new AnswerController(ui.answerColumn);
 
     connect(ui.textEdit, SIGNAL(textChanged()), SLOT(textChanged()));
