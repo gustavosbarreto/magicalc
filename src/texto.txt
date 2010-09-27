@@ -1,0 +1,9 @@
+-- ( Viagem a Porto Alegre ) --
+diária de R$ 120 x 5 noites
+10 reifeições por x R$ 18
+20 corridas de táxi até o evento x R$ 38
+
+-- ( Viagem a Foz do Iguaçu ) --
+diária de R$ 100 x 3 noites
+6 reifeições por x R$ 20
+6 corridas de táxi até o evento x R$ 30

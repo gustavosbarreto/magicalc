@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/">
+    <file>resources/font.ttf</file>
+    <file>resources/line.png</file>
+    <file>qtscriptextension/goog/__init__.js</file>
+    <file>qtscriptextension/private/__init__.js</file>
+  </qresource>
+</RCC>
